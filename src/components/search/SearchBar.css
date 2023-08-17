@@ -1,0 +1,35 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    border: 2px solid black;
+    margin-top: 20px;
+
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Add more specific styling as needed */
+  
